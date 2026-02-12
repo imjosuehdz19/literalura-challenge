@@ -67,10 +67,6 @@ public class Principal {
                 case 3 -> listarAutoresRegistrados();
                 case 4 -> listarAutoresVivosPorFecha();
                 case 5 -> listarLibrosPorIdioma();
-//                case 6 -> mostrarEstadisticasDeDescargas();
-//                case 7 -> listarTop10Libros();
-//                case 8 -> buscarAutorPorNombre();
-//                case 9 -> buscarAutoresPorFechaNacimiento();
                 case 0 -> System.out.println("Cerrando la aplicación...");
                 default -> System.out.println("Opción no válida");
             }
@@ -172,3 +168,4 @@ public class Principal {
         }
     }
 }
+
